@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  background-color:#343434;
+}
+
+.header{
+  width:100%;
+	z-index:99;
+  text-align:center;
+  padding:30px 0 30px 30px;
+  color:#ccc;
+  /* border-bottom:1px solid #ccc; */
+}
+.pageTitle {
+    float:left;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right:25px;
+}
+.nav_right {
+    float:right;
+}
+
+a.nav {
+    font-size:14px;
+    font-weight: 400;
+    margin-left:5px;
+    margin-right:10px;
+}
+
+button.role {
+  background:none;
+  border:1px solid white;
+  padding:10px;
+  color:white;
+  margin:5px;
+  font-size:15px;
+}
+
+.container {
+  max-width:1200px; 
+  margin:auto;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.section {
+    width:100%;
+    padding:30px;
+}
+.section .title {
+    display:block;
+    margin:10px 0px 20px 0px;
+    text-align:left;
+    font-size:15px;
+    font-weight:600;
+}
+.section .content {
+    display:block;
+    max-width:1000px;
+    text-align:left;
+    font-size:18px;
+    font-weight:300;
+    line-height:2.0;
+}
+
+#about {
+  /* background:#ccc; */
+  color:#ccc;
+}
+
+div.problems{
+  color:white;
+  margin-top:20px;
+  font-size:18px;
+}

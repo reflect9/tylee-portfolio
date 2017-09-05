@@ -1,0 +1,184 @@
+var projects = [
+{
+	id: "itm",
+	title: "User Studies on Interactive Topic Modeling ",
+	date: "2015",
+	subtitle: "Studied how people understand and refine probabilistic topic models.",
+	keywords: ["Topic Modeling","Machine Learning","Mixed-initiative User Interfaces","User Studies"],
+	abstract: `Statistical topic modeling is a common tool for summarizing the themes in a document corpus. 
+		Due to the complexity of topic modeling algorithms, however, their results are not accessible to 
+		non-expert users. Recent work 
+		in interactive topic modeling looks to incorporate the user into the inference loop, for example,
+		by allowing them to view a model then update it by specifying important words and words that should 
+		be ignored. However, the majority of interactive topic modeling work has been performed without fully 
+		understanding the needs of the end user and does not adequately consider challenges that arise 
+		in interactive machine learning. With one workshop paper and two full research papers, we
+		explore a subset of interactive machine learning design challenges with specific considerations 
+		for interactive topic modeling. For each challenge, we propose solutions based on prior work and 
+		our own preliminary findings and identify open questions to guide future work. I participanted 
+		in a NSF research project about interactive modeling with Alison Smith, Leah Findlator, Jordan Boyd-Graber, Kevin Seppi, and Niklas Elmqvist. 
+		`,
+	link: null,
+	attachment: [{name:"CHI'16 Worshop",src:"resources/Smith-CHI-workshop.pdf"},
+		{name:"TACL'16",src:"resources/Smith-TACL.pdf"}
+	]
+},
+{
+	id: "IBMersWhoTweet",
+	title: "IBMersWhoTweet",
+	date: "2012",
+	subtitle: "Experiments on Motivational Feedback For Crowdsourced Workers. It is the final outcome of the summer internship at the IBM Research center in Cambridge.",
+	keywords: ["Internship","Crowdsourcing","Motivation","Experiment"],
+	abstract: "This paper examines the relationship between motivational design and its longitudinal effects on crowdsourcing systems. In the context of a company internal web site that crowdsources the identification of Twitter accounts owned by company employees, we designed and investigated the effects of various motivational features including individual / social achievements and gamification. Our 6-month experiment with 437 users allowed us to compare the features in terms of both quantity and quality of the work produced by participants over time. While we found that gamification can increase workers’ motivation overall, the combination of motivational features also matters. Specifically, gamified social achievement is the best performing design over a longer period of time. Mixing individual and social achievements turns out to be less effective and can even encourage users to game the system.",
+	link: null,
+	attachment: [{name:"ICWSM'13 Paper",src:"resources/Lee-IBMersWhoTweet-ICWSM-final.pdf"}]
+},
+{
+	id: "ctarcade",
+	title: "CTArcade",
+	date: "2011",                
+	subtitle: "CTArcade is a gaming and learning environment where children articulate logical thinking skills while training their own characters and playing against other AIs.",
+	keywords: ["Web Service","Game"],
+	abstract: "CTArcade is a web application framework that can engage users through game play and result in learning computational thinking (CT) skills. Our formative study indicates that CT skills are employed when children are asked to define strategies of common games such as Connect Four. In CTArcade, users can train their own virtual characters while playing games with it. Trained characters then play matches against other virtual characters. Based on reviewing the matches played, users can both improve their game character and their own CT skills.",
+	link: "http://ctarcade.appspot.com/",
+	attachment: [{name:"website",src:"http://ctarcade.appspot.com"},
+					{name:"video",src:"http://vimeo.com/58225481#at=0"},
+				{name:"paper",src:"resources/ctarcade-chi2012-final.pdf"}]
+},
+{
+	id: "Glorious_Maxima",
+	title: "Glorious Maxima",
+	date: "2010",
+	subtitle: "A prediction model for choosing the best AD banner based on the user's historical trail.",
+	keywords: ["Machine Learning","Online Advertisement","Big Data"],
+	abstract: "In this paper we address the problem of finding the most suitable banner display advertisement option for a user given his/her current browsing session. Using the historical browsing session infor- mation for an advertisement campaign, we mine the association of different ad views, engagements and clicks. Using a probabilistic model, we find the likelihood of an ad to be clicked given a specific set of events that describe the user session. The major challenge in training the model for optimum precision is the sparsity of data (< 0.5% Click through rate) and we propose the use of ad engage- ment as a success event like ad click to train the model more effectively. Our results show a good click through conversion probability on test data.",
+	link: null,
+	attachment: [	{name:"poster",src:"resources/gloriousMaxima/panel_f2.pdf"},
+					{name:"SIGIR'11 Workshop",src:"resources/gMaxima-SIGIR-Workshop-V7.pdf"}]
+},
+{
+	id: "TagMeAR",
+	title: "TagMeAR",
+	date: "2010",
+	subtitle: "A context-aware mobile app that curates on-campus information from various sources on an AR(Augmented Reality) browser.",
+	keywords: ["Machine Learning"],
+	abstract: "TagMeAR is a context-aware mobile recommendation system for improving quality of life on university campus that combines existing campus information services. Its recommendation engine uses Markov Logic Network to provides users only relevant information according to current context and previous usage. With Augmented Reality technology running on Android mobile phone, TagMeAR’s information browser shows information overlaid on live image of physical space by using built-in camera, compass and GPS module.",
+	link: null,
+	attachment: [	{name:"report",src:"resources/tagmear-report.pdf"}]
+},
+{
+	id: "TreeCovery",
+	title: "TreeCovery",
+	date: "2009",
+	subtitle: "Understanding large and complex dataset often requires finding relationship between hierarchies. TreeCovery offers a coordinated dual treemap visualization for bi-hierarchical exploration.",
+	keywords: ["Information Visualization"],
+	abstract: "The American Recovery and Reinvestment Act dedicated $787 billion to stimulate the US economy and mandated the release of the data describing the exact distribution of that money. The dataset is a large and complex one; one of its distinguishing features is its bi-hierarchical structure, arising from the distribution of money through agencies to specific projects and the natural aggregation of awards based on location. To offer a comprehensive overview of the data, a visualization must incorporate both these hierarchies. We present TreeCovery, a tool that accomplishes this through the use of two coordinated treemaps. The tool includes a number of innovative features, including coordinated zooming and filtering and a proportional highlighting technique across the two trees. TreeCovery was designed to facilitate data exploration, and initial user studies suggest that it will be helpful in insight generation. RATB(Recovery Accountability and Transparency Board) has tested TreeCovery and considering to include the concept into their visual analytics.",
+	link: null,
+	attachment: [	{name:"VIDEO",src:"http://youtu.be/f2mJGxJWxxQ"}, {name:"GIQ Paper",src:"resources/treecovery.pdf"}]
+},
+{
+	id: "NewMediaDesign08",
+	title: "Teaching; New Media Design",
+	date: "2008",
+	subtitle: "A collection of 6 smart objects that create subtle twists in urban contexts. These are the term projects of the lecture that I taught at Konkuk University.",
+	keywords: ["lecture"],
+	abstract: ".",
+	link: "newmedia08/newmediadesign_site1.html",
+	attachment: [{name:"website",src:"http://takyeonlee.com/portfolio/newmedia08/newmediadesign_site1.html"}
+					]
+},
+{
+	id: "chongmyo",
+	title: "Teaching; Chong-Myo Park Project",
+	date: "2007",
+	subtitle: "A socio-cultural ethnographic study that focuses on senior citizens gathering at Chong-Myo park in Seoul. I co-supervised 20 undergraduate students at Konkuk univ., with prof. Chang-Sub Oh.",
+	keywords: ["lecture"],
+	abstract: "At the center of Seoul, South Korea, Chong Myo is one of the most historical places where mortuary tablets of Cho-Sun dynasty are preserved and at the same time modernization of the country is postulated. Now at the front of Chong Myo, Chong Myo citizen park is the biggest meeting place for senior citizens. The project aims to grasp frictions between generations, territories, social states, and to present design proposals in forms of product, photography, essay and performance without any predetermined direction. 20 undergraduate students at Konkuk University participated in this project. Professor. Chang-Sub Oh, who is running Meta Design Laboratory, and I together supervised along the whole process.",
+	link: null,
+	attachment: []
+},
+{
+	id:"oladay",
+	title: "oladay",
+	date: "2008",
+	subtitle: "oladay is a a web-based visual expression platform that allows users to create diary by freely composing text, photo, video, and music on a canvas together with friends.",
+	keywords: [],
+	abstract: "'oladay.com' is a web-service for visual expression - it could be used as photo diary, short memo, review, blogging. People can express their memories, plans, moods by using various tools in Canvas (a virtual stage for expression). While many other web-authoring platforms are aimed for producing static HTML documents with TABLE tags, Canvas provides much more freedom in editing things.",
+	link: null,
+	attachment: []
+},
+{
+	id: "profoundActivity",
+	title: "Designing For Profound Activity",
+	date: "2006",
+	subtitle: "Why can't people improve photographic skills by taking pictures? A novel UI concept of digital camera is designed to enable users to learn photography by simply using it.",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: [{name:"prototype",src:"http://takyeonlee.com/portfolio/project_designingfor/prototype/start.html"}, 
+					{name:"MSC. thesis",src:"http://takyeonlee.com/portfolio/resources/TYLEE_designing%20for%20profound%20activity-small_7.pdf"} 	]
+},
+{
+	id: "sand_message_board",
+	title: "Sand Message Board",
+	date: "2006",
+	subtitle: "An ambient lighting inspired by Zen philosophy - Writing is a ritual that evokes the feeling of contemplation.",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: []
+},
+{
+	id: "subtleAbsurdity",
+	title: "Subtle Absurdity Toolkit",
+	date: "2005",
+	subtitle: "Five subtly-absurd ideas create afresh contrasts in boring in-flight situations.",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: []
+},
+{
+	id: "INTU",
+	title: "INTU",
+	date: "2005",
+	subtitle: "A conceptual mobile phone design, which is the result of re-design process that includes analysis of an existing product, redesigning, prototyping, and evaluation.",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: []
+},
+{
+	id: "twisters",
+	title: "LogTime Twisters",
+	date: "2005",
+	subtitle: "An interactive installation that generates a haiku of images and words, which were collected throught the day by a bracelet-like capturing device.    ",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: [{name:"video",src:"http://www.youtube.com/watch?feature=player_embedded&v=8__J6NjVudc"} ]
+},
+{
+	id:"PostOnDimension",
+	title: "Post On Dimension",
+	date: "2003",
+	subtitle: "A web-based groupware exclusively for designers who communicate by creating and sharing visual representations.",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: []
+},
+{
+	id:"fungus",
+	title: "Fungus Interactive",
+	date: "2001",
+	subtitle: "An interactive kinetic art that shows how an abstract living creature reacts to its environment.",
+	keywords: [],
+	abstract: "",
+	link: null,
+	attachment: [
+		{name:"type A",src:""}, {name:"type B",src:""}, 
+	]
+}
+
+];

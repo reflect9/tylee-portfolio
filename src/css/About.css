@@ -1,0 +1,17 @@
+.section {
+    width:100%;
+    padding:30px;
+}
+.title {
+    display:block;
+    margin:auto;
+    font-size:25px;
+    font-weight:300;
+}
+.content {
+    display:block;
+    max-width:1000px;
+    margin:auto;
+    font-size:18px;
+    font-weight:500;
+}

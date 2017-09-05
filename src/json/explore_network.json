@@ -1,0 +1,40 @@
+{
+    "roles": {
+        "uxd":{ "title":"UX Designer",
+                "problems":[  
+                ]
+        }, 
+        "uxr":{"title":"UX Researcher"},
+        "fe":{"title":"Front-end Developer"}, 
+        "ds":{"title":"Data Scientist"}
+    },
+    "skill_groups": {
+        "Data Visualization": {   
+            "skills":["d3","Python"]            
+        },
+        "Data Science": {
+            "skills":["Java","Python","NLTK","Mallet"]
+        },
+        "Front-end": {
+            "skills":["HTML5","CSS","JavaScript","React","TypeScript"]
+        },
+        "Back-end": {
+            "skills": ["Google Cloud","Flask"]
+        },
+        "Human Computation": {
+            "skills": ["Crowdsourcing"]
+        },
+        "User Study": {
+            "skills": ["Usability Test","Contextual Inquiry","A-B Test"]
+        }
+    },
+    "skills": {
+        "Java": {   }, 
+        "d3":{},
+        "HTML5": {  },  "CSS": {}, "JavaScript":{}, "React":{}, "TypeScript":{},
+        "Python":{}, "NLTK":{}, "Mallet":{},
+        "Google Cloud":{},  "Flask":{},
+        "Crowdsourcing":{},
+        "Usability Test":{}, "Contextual Inquiry":{}, "A-B Test":{}
+    } 
+}

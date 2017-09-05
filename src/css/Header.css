@@ -1,0 +1,24 @@
+.header{
+    width:100%;
+	z-index:99;
+    text-align:center;
+    padding:30px 0 30px 30px;
+    color:#ccc;
+    border-bottom:1px solid #ccc;
+}
+.pageTitle {
+    float:left;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right:25px;
+}
+.nav_right {
+    float:right;
+}
+
+a.nav {
+    font-size:14px;
+    font-weight: 400;
+    margin-left:5px;
+    margin-right:10px;
+}
